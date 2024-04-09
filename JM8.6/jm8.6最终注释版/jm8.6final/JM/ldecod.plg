@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ldecod - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP62.tmp" with contents
+[
+/nologo /o"ldecod/Debug/ldecod.bsc" 
+".\ldecod\Debug\annexb.sbr"
+".\ldecod\Debug\biaridecod.sbr"
+".\ldecod\Debug\block.sbr"
+".\ldecod\Debug\cabac.sbr"
+".\ldecod\Debug\context_ini.sbr"
+".\ldecod\Debug\erc_api.sbr"
+".\ldecod\Debug\erc_do_i.sbr"
+".\ldecod\Debug\erc_do_p.sbr"
+".\ldecod\Debug\errorconcealment.sbr"
+".\ldecod\Debug\filehandle.sbr"
+".\ldecod\Debug\fmo.sbr"
+".\ldecod\Debug\header.sbr"
+".\ldecod\Debug\image.sbr"
+".\ldecod\Debug\ldecod.sbr"
+".\ldecod\Debug\leaky_bucket.sbr"
+".\ldecod\Debug\loopFilter.sbr"
+".\ldecod\Debug\macroblock.sbr"
+".\ldecod\Debug\mb_access.sbr"
+".\ldecod\Debug\mbuffer.sbr"
+".\ldecod\Debug\memalloc.sbr"
+".\ldecod\Debug\nal.sbr"
+".\ldecod\Debug\nal_part.sbr"
+".\ldecod\Debug\nalu.sbr"
+".\ldecod\Debug\nalucommon.sbr"
+".\ldecod\Debug\output.sbr"
+".\ldecod\Debug\parset.sbr"
+".\ldecod\Debug\parsetcommon.sbr"
+".\ldecod\Debug\rtp.sbr"
+".\ldecod\Debug\sei.sbr"
+".\ldecod\Debug\vlc.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP62.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ldecod.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

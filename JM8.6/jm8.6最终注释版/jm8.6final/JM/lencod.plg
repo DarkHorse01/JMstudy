@@ -1,0 +1,226 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lencod - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /profile /debug /machine:I386 /out:"./bin/lencod.exe" 
+".\lencod\Debug\annexb.obj"
+".\lencod\Debug\biariencode.obj"
+".\lencod\Debug\block.obj"
+".\lencod\Debug\cabac.obj"
+".\lencod\Debug\configfile.obj"
+".\lencod\Debug\context_ini.obj"
+".\lencod\Debug\decoder.obj"
+".\lencod\Debug\fast_me.obj"
+".\lencod\Debug\filehandle.obj"
+".\lencod\Debug\fmo.obj"
+".\lencod\Debug\header.obj"
+".\lencod\Debug\image.obj"
+".\lencod\Debug\intrarefresh.obj"
+".\lencod\Debug\leaky_bucket.obj"
+".\lencod\Debug\lencod.obj"
+".\lencod\Debug\loopFilter.obj"
+".\lencod\Debug\macroblock.obj"
+".\lencod\Debug\mb_access.obj"
+".\lencod\Debug\mbuffer.obj"
+".\lencod\Debug\memalloc.obj"
+".\lencod\Debug\mv-search.obj"
+".\lencod\Debug\nal.obj"
+".\lencod\Debug\nalu.obj"
+".\lencod\Debug\nalucommon.obj"
+".\lencod\Debug\output.obj"
+".\lencod\Debug\parset.obj"
+".\lencod\Debug\parsetcommon.obj"
+".\lencod\Debug\ratectl.obj"
+".\lencod\Debug\rdopt.obj"
+".\lencod\Debug\rdopt_coding_state.obj"
+".\lencod\Debug\refbuf.obj"
+".\lencod\Debug\rtp.obj"
+".\lencod\Debug\sei.obj"
+".\lencod\Debug\slice.obj"
+".\lencod\Debug\vlc.obj"
+".\lencod\Debug\weighted_prediction.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB8.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : warning LNK4098: defaultlib "LIBCD" conflicts with use of other libs; use /NODEFAULTLIB:library
+parsetcommon.obj : error LNK2001: unresolved external symbol __wassert
+rtp.obj : error LNK2001: unresolved external symbol __wassert
+sei.obj : error LNK2001: unresolved external symbol __wassert
+slice.obj : error LNK2001: unresolved external symbol __wassert
+nal.obj : error LNK2001: unresolved external symbol __wassert
+nalu.obj : error LNK2001: unresolved external symbol __wassert
+output.obj : error LNK2001: unresolved external symbol __wassert
+parset.obj : error LNK2001: unresolved external symbol __wassert
+image.obj : error LNK2001: unresolved external symbol __wassert
+intrarefresh.obj : error LNK2001: unresolved external symbol __wassert
+leaky_bucket.obj : error LNK2001: unresolved external symbol __wassert
+mbuffer.obj : error LNK2001: unresolved external symbol __wassert
+annexb.obj : error LNK2001: unresolved external symbol __wassert
+configfile.obj : error LNK2001: unresolved external symbol __wassert
+fmo.obj : error LNK2001: unresolved external symbol __wassert
+header.obj : error LNK2001: unresolved external symbol __wassert
+rdopt_coding_state.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+rtp.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+sei.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+slice.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+output.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+parset.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+parsetcommon.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+ratectl.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+mv-search.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+nal.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+nalu.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+nalucommon.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+macroblock.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+mb_access.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+mbuffer.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+memalloc.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+intrarefresh.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+leaky_bucket.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+lencod.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+loopFilter.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+filehandle.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+fmo.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+header.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+image.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+configfile.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+context_ini.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+decoder.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+fast_me.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+annexb.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+biariencode.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+block.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+cabac.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+slice.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+rdopt_coding_state.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+refbuf.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+rtp.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+sei.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+output.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+parset.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+parsetcommon.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+ratectl.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+mv-search.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+nal.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+nalu.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+nalucommon.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+macroblock.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+mb_access.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+mbuffer.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+memalloc.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+intrarefresh.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+leaky_bucket.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+lencod.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+loopFilter.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+filehandle.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+fmo.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+header.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+image.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+configfile.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+context_ini.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+decoder.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+fast_me.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+annexb.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+biariencode.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+block.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+cabac.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+slice.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+rdopt_coding_state.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+refbuf.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+rtp.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+sei.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+output.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+parset.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+parsetcommon.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+ratectl.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+mv-search.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+nal.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+nalu.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+nalucommon.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+macroblock.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+mb_access.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+mbuffer.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+memalloc.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+intrarefresh.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+leaky_bucket.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+lencod.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+loopFilter.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+filehandle.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+fmo.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+header.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+image.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+configfile.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+context_ini.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+decoder.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+fast_me.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+annexb.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+biariencode.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+block.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+cabac.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+sei.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+slice.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+mv-search.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+parset.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+ratectl.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+rtp.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+lencod.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+loopFilter.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+macroblock.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+mbuffer.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+fast_me.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+header.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+image.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+leaky_bucket.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+block.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+cabac.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+configfile.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+decoder.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+configfile.obj : error LNK2001: unresolved external symbol ___iob_func
+filehandle.obj : error LNK2001: unresolved external symbol ___iob_func
+leaky_bucket.obj : error LNK2001: unresolved external symbol ___iob_func
+lencod.obj : error LNK2001: unresolved external symbol ___iob_func
+mv-search.obj : error LNK2001: unresolved external symbol __ftol2_sse
+ratectl.obj : error LNK2001: unresolved external symbol __ftol2_sse
+fast_me.obj : error LNK2001: unresolved external symbol __ftol2_sse
+header.obj : error LNK2001: unresolved external symbol __ftol2_sse
+image.obj : error LNK2001: unresolved external symbol __ftol2_sse
+lencod.obj : error LNK2001: unresolved external symbol __ftol2_sse
+fast_me.obj : error LNK2001: unresolved external symbol __RTC_UninitUse
+ratectl.obj : error LNK2001: unresolved external symbol __RTC_UninitUse
+slice.obj : error LNK2001: unresolved external symbol __RTC_UninitUse
+macroblock.obj : error LNK2001: unresolved external symbol ___security_cookie
+mv-search.obj : error LNK2001: unresolved external symbol ___security_cookie
+parset.obj : error LNK2001: unresolved external symbol ___security_cookie
+sei.obj : error LNK2001: unresolved external symbol ___security_cookie
+header.obj : error LNK2001: unresolved external symbol ___security_cookie
+image.obj : error LNK2001: unresolved external symbol ___security_cookie
+lencod.obj : error LNK2001: unresolved external symbol ___security_cookie
+loopFilter.obj : error LNK2001: unresolved external symbol ___security_cookie
+macroblock.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+mv-search.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+parset.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+sei.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+header.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+image.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+lencod.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+loopFilter.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+image.obj : error LNK2001: unresolved external symbol __ftime64
+mv-search.obj : error LNK2001: unresolved external symbol __ftime64
+image.obj : error LNK2001: unresolved external symbol __time64
+./bin/lencod.exe : fatal error LNK1120: 12 unresolved externals
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+lencod.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

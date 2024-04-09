@@ -1,0 +1,54 @@
+ -------------------------------------------------------------- 
+  This file contains statistics for the last encoded sequence   
+ -------------------------------------------------------------- 
+ Sequence                     : foreman_qcif.yuv
+ No.of coded pictures         :   10
+ Freq. for encoded bitstream  :   30
+ Bitrate(kb/s)                : 179.69
+ Hadamard transform           : Used
+ Image format                 : 176x144
+ Error robustness             : Off
+ Search range                 : 16
+ No of frame used in P pred   : 10
+ Entropy coding method        : CAVLC
+ Profile/Level IDC            : (66,30)
+ Search range restrictions    : none
+ RD-optimized mode decision   : used
+ ---------------------|----------------|---------------|
+     Item             |      Intra     |   All frames  |
+ ---------------------|----------------|---------------|
+ SNR Y(dB)            |  37.38         | 36.82         |
+ SNR U/V (dB)         |  41.26/42.85   | 40.89/42.43   |
+ Average quant        |     28         | 28.00         |
+
+ ---------------------|----------------|
+   Intra              |    Mode used   |
+ ---------------------|----------------|
+ Mode 0  intra 4x4    |     94         |
+ Mode 1+ intra 16x16  |      5         |
+
+ ---------------------|----------------|-----------------|
+   Inter              |    Mode used   | MotionInfo bits |
+ ---------------------|----------------|-----------------|
+ Mode  0  (copy)      |    217         |        0.00     |
+ Mode  1  (16x16)     |    289         |      245.11     |
+ Mode  2  (16x8)      |     91         |      146.89     |
+ Mode  3  (8x16)      |    130         |      229.11     |
+ Mode  4  (8x8)       |    155         |      660.44     |
+ Mode  5  intra 4x4   |      9         |-----------------|
+ Mode  6+ intra 16x16 |      0         |
+
+ ---------------------|----------------|----------------|----------------|
+  Bit usage:          |      Intra     |      Inter     |    B frame     |
+ ---------------------|----------------|----------------|----------------|
+ Header               |      26.00     |      28.56     |       0.00      |
+ Mode                 |     121.00     |     428.89     |       0.00     |
+ Motion Info          |        ./.     |    1281.56     |       0.00     |
+ CBP Y/C              |     370.00     |     306.89     |       0.00     |
+ Coeffs. Y            |   19597.00     |    1971.11     |       0.00     |
+ Coeffs. C            |    1693.00     |      95.00     |       0.00     |
+ Delta quant          |      99.00     |      39.11     |       0.00     |
+ Stuffing Bits        |       0.00     |       0.00     |       0.00     |
+ ---------------------|----------------|----------------|----------------|
+ average bits/frame   |   21906.00     |    4151.11     |       0.00     |
+ ---------------------|----------------|----------------|----------------|
